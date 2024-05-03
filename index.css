@@ -1,0 +1,847 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+/* -------------------Navbar-------------------- ------------------------*/
+
+#navbar{
+    padding-top: 25px;
+    color: #ffffff;
+    background: #230F33; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+#navdivf{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    /* margin: 0px 20px; */
+    gap: 25px;
+}
+.innernavdivf{
+    display: flex;
+    gap: 2px
+
+}
+.navdivfimg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#navdivfimgid{
+    
+
+    background-color: #ffffff;
+
+}
+/* 2part of navbar  */
+.navdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    /* border: 4px solid red; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#navdivLogoCate{
+    /* border: 4px solid rgb(243, 153, 10); */
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    
+}
+#logong {
+    /* width:150px; */
+    height: 70px;
+    font-size: 35px; font-weight: 600; color: white;
+}
+#filterr{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #230F33;
+    color: white;
+    font-weight: 400;
+    font-size:x-large;
+}
+
+#navdivCart{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+#logon{
+    width: 30px;
+    height: 30px;
+}
+
+#myStaff{
+    border-radius: 5px;
+    width:150px;
+    height: 30px;
+    background-color: #230F33;
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+    
+    text-align:center;
+}
+.insidefil{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+/* -----3rd part of navbar */
+#navdivL{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+    /* border: 1px solid rgb(55, 55, 145); */
+}
+
+#navdivLh{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    font-size: xx-large;
+    font-weight: 900;
+}
+#navdivLArrow{
+    /* border:1px solid black; */
+    margin-top:8px;
+    width: 33px;
+    height: 25px;
+    font-size: medium;
+}
+#navdivLi{
+    width: 40%;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: large;
+}
+
+/* -----offer -- */
+#divOff{
+    display: flex;
+    justify-content: center;
+    background-color: #E8FCEA;
+}
+#divOffMain{
+    width: 80%;
+    display: flex;
+}
+.divOffer{
+    font-size: larger;
+    color: brown;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#divofferone{
+    width: 600px;
+    text-align: center      ;
+}
+#divoffertwo{
+    text-align: center      ;
+    width: 500px;
+
+}
+#divofferthree{
+    text-align: center;
+    width: 500px;
+}
+
+
+
+
+
+ 
+
+.navbarSidebtn{
+    background-color: black;
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+navbarSidebtn a{
+    color: white; font-weight: bold; font-size: 15px;
+}
+
+/* ----------------body----------------------- */
+#headuser{
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+#container>div{
+    /* border: 1px solid orangered; */
+    border-radius: 10px;
+    /* padding: 5px; */
+    text-align: center;
+    margin-bottom: 5px;
+    width:100%;
+    
+}
+
+
+#cimg{
+    padding-top: 0px;   
+    width: 100%;
+    height: 190px;
+    border-radius: 12px;
+    /* height: %; */
+    /* margin-left: 32%; */
+}
+#para{
+    font-weight: 700;
+    font-size: larger;
+    text-align: left;
+    margin: 9px;
+}
+#address{
+    font-weight: 400;
+    font-size: larger;
+    text-align: left;
+    margin: 9px; 
+}
+#ratt{
+    font-size: larger;
+    font-weight: 400;
+    font-size: larger;
+    text-align: left;
+    margin: 9px;
+
+}
+#price{
+    color: red;
+    font-weight: 750;
+    font-size: larger;
+    text-align: left;
+    margin: 9px;
+
+}
+#promo{
+    color: rgb(67, 48, 138);
+    font-weight: 900;
+    font-size: larger;
+    text-align: left;
+    margin: 9px;
+}
+
+#title{
+    font-weight: 400;
+    font-size: larger;
+    text-align: left;
+    margin: 9px; 
+}
+#bougth{
+    color: #615C66;
+    font-weight: 400;
+    font-size: larger;
+    text-align: left;
+    margin: 9px; 
+    margin-top: 15px;
+}
+
+
+
+/* -----Show more btn */
+#showMored{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    /* border: 1px soli d black; */
+    margin-bottom: 35px;
+}
+#showMore{
+    width: 110px;
+    height: 41px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* -------------mother day div */
+
+#motherDayMain{
+    margin: auto;
+    padding: 15px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    background-color: #FFF5E9;
+}
+#motherDayInsideh{
+    margin-left: 9%;
+    width: fit-content;
+    /* border: 1px solid red; */
+}
+#motherDayInside{
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+    margin-right: 9%;
+}
+
+#motherDayh{
+    margin-top: 6px;
+}
+
+.motherDaybtn{
+    border: 1px solid rgb(114, 105, 105);
+    /* margin-top: 15px; */
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    /* padding: -8px; */
+}
+/* -------------sec container -----------*/
+#sContainerMain{
+    background-color: #FFF5E9;
+}
+#sContainer{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-bottom: 35px;
+}
+#sContainer>div{
+    /* border: 1px solid orangered; */
+    border-radius: 10px;
+    /* padding: 5px; */
+    text-align: center;
+    /* width: 410px; */
+    
+}
+#sshowMore{
+    width: 110px;
+    height: 41px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* ==============tContainer===========================------------------ */
+#tContainerMain{
+    width: 80%;
+    margin: auto;
+}
+#tContainer{
+    width: 100%;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-bottom: 35px;
+     
+}
+#tContainer>div{
+    border-radius: 10px;
+    /* text-align: center; */
+    margin-top: 10px;  
+    margin-bottom:35px;   
+}
+
+/* -----------------------------------------------------------footer------------------------------ */
+#upfooter{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #141529;
+    padding: 60px ;
+    
+}
+#upfooterMain{
+    margin: auto;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 92%;
+    display: flex;
+}
+#linee{
+    border-left: 2px solid rgb(245, 246, 245);
+    height: 280px;
+    position: absolute;
+    left: 28%;
+    /* margin-left: 6px; */
+    /* margin-top: 5px; */
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    margin: auto;
+    width:25%;
+    /* border: 1px solid red; */
+    gap: 20px;
+    height: 280px;
+    
+}
+
+.footer-col h4{
+    column-gap: 15px;
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+    
+}
+.footerulli{
+    column-gap: 10px;
+    width: 100%;
+    /* border: 1px   solid black; */
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    
+}
+
+ul li a :hover{
+    color: white;
+    column-gap: 15px;
+    padding-left: 2px;
+    
+}
+#helpB{
+    background-color: #141529;
+    color: white;
+    width: 175px;
+    height: fit-content;
+    padding: 8px;
+    font-size: larger;
+    font-weight: 700;
+    border: 1px solid;
+}
+#CustomerLi{
+    column-gap: 15px;
+    width: 95%;
+}
+
+#downfooter{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: auto;
+    background-color: #ffffff;
+    padding: 60px 10%;
+    border: 1px solid red;
+    font-weight: bolder;
+}
+.footer-down{
+    width:25%;
+    height: fit-content;
+    /* border: 1px solid rgb(13, 5, 5); */
+}
+
+.footer-down h2{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #0b3a52;
+    text-transform: capitalize;
+
+}
+
+.footer-down h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #003831;
+    height: 2px;
+    width: 40px;
+}
+#countryId{
+    border: 1px solid rgb(203, 203, 245);
+    background-color:rgb(207, 207, 230) ;
+    width: 165px;
+    height: 35px;
+    border-radius: 12px;
+    }
+
+.logoqr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+#logoqrimg{
+    width: 100px;
+    height: 100px;
+}
+
+#logoqrb{
+    
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 175px;
+    height: fit-content;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 700;
+    border: 1px solid red; 
+    border-radius: 10px;
+}
+#logoSin{
+    width: 30px;
+    height:30px;
+}
+
+
+.logoS a{
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    color: white;
+    background-color: rgba(40,130,214,0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.logol{
+    display: flex;
+    
+}
+#logole{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+#logolb{
+    margin-left: 10px;
+    width: 30px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    font-weight: 900;
+}
+
+#logolp{
+    margin-top: 5px;
+    font-weight: 300;
+    height: 35px;
+}
+
+#footerlp{
+    /* padding: 5px; */
+    /* border: 1px solid black; */
+    margin-top: 35px;
+    font-weight: 200;
+    height: 20px;
+    margin-bottom: 4px;
+    width: 130%;
+
+}
+
+
+/* -----------hover---- */
+.innernavdivf div:hover{
+    color: #e3b00b;
+    font-size: large;
+    font-weight: 400;
+}
+
+#logong:hover{
+    color: #eb0000;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#navdivLh:hover{
+    color: #eb0000;
+    font-weight: 900;
+}
+.insidefil:hover{
+    color: #2b00eb;
+    background-color: #e3b00b;
+    font-size: larger;
+}
+#logon:hover{
+    width: 35px;
+    height: 35px;
+}
+#myStaff:hover{
+    width: 170px;
+    height: 40px;
+}
+
+
+
+.divOffer:hover{
+    background-color: #615C66;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 30px;
+}
+#cimg:hover{
+    width: 350px;
+}
+#para:hover{
+    font-weight: 900;
+    color: darkred;
+}
+#address:hover{
+    font-weight: 600;
+    color: darkred;
+}
+#price:hover{
+    font-weight: 900;
+    color: darkred;
+    
+    
+}
+#ratt:hover{
+    color: darkred;
+    font-weight: 600;
+    margin: auto;
+}
+#promo:hover{
+    color: darkred;
+    margin: auto;
+    font-size: xx-large;
+}
+#bougth:hover{
+    font-weight: 600;
+    margin: auto;
+    color: darkred;
+    text-align: center;
+}
+#showMore:hover{
+    color:blue;
+    width: 15%;
+    font-size: x-large;
+    font-weight: 600;
+    border: #0b3a52;
+}
+#sshowMore:hover{
+    color:blue;
+    border: #0b3a52;
+    width: 15%;
+    font-size: x-large;
+    font-weight: 600;
+}
+.footerulli a:hover{
+    font-size: x-large;
+    color: rgb(216, 28, 28);
+    font-weight: 600;
+}
+
+
+
+
+/* ---------------------------------------------------------------------media query -------------------------------- */
+
+@media all and (min-width:1000px) and (max-width:1500px){
+    
+    
+    #navdivf{
+        display: none;
+    }
+    .navdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    #navdivCart{
+        display: none;
+    }
+    #navdivL{
+        margin: auto;
+
+    }
+    #divOff{
+        display: none;
+    }
+    #container{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }    
+    #motherDayInside{
+        display: none;
+    }
+    #sContainer{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    #tContainerMain{
+        margin: auto;
+    }
+    #tContainer{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+
+    }
+    #upfooterMain{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    
+    .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+            text-align: center;
+
+        }
+        .footer-col h4 ::before{
+            all: unset;
+
+        }
+        #linee{
+            display: none;
+        }
+        #downfooter{
+            grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        }
+        #footerDownI{
+            display: none;
+        }
+}
+@media all and (min-width:200px) and (max-width:900px){
+    #navdivf{
+        display: none;
+    }
+    .navdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    #navdivCart{
+        display: none;
+    }
+    #navdivL{
+        margin: auto;
+
+    }
+    #divOff{
+        display: none;
+    }
+    #container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }    
+    #motherDayInside{
+        display: none;
+    }
+    #sContainer{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    #tContainerMain{
+        margin: auto;
+    }
+    #tContainer{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+
+    }
+    #upfooterMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-col{
+            width: 100%;
+        }
+    #linee{
+         display: none;
+    }
+    #downfooter{
+        display: flex;
+        flex-direction: column;
+    }
+    #downfooter div{
+        margin-top: 5px;
+    }
+    #footerDownI{
+        display: none;
+    }
+    #footerlp{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
